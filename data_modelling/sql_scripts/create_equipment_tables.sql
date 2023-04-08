@@ -9,10 +9,9 @@
 
 -- Create a table to store the equipment types
 
-CREATE TABLE equipment_typess (
-equipment_type_id INT NOT NULL,
+CREATE TABLE equipment_types (
+equipment_type_id SERIAL NOT NULL PRIMARY KEY,
 equipment_types_name VARCHAR(50) NOT NULL,
 added_date TIMESTAMP NOT NULL,
 updated_date TIMESTAMP NOT NULL,
-PRIMARY KEY (equipment_type_id)
 );
