@@ -1,0 +1,33 @@
+
+# constraint the production environment to the dev
+-c prod_requirements.txt
+
+# formatting
+black
+## check for docstrings
+interrogate
+
+# documentation
+## help with auto-documentation
+sphinx
+
+# testing
+ipython
+## checks for test coverage
+coverage
+## tests for multiple cases
+hypothesis
+
+# git pre-commit
+## pre-commit hooks
+pre-commit
+
+# linting
+flake8
+flake8-bugbear
+
+# security
+bandit
+
+# debug
+debugpy
